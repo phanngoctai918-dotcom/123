@@ -1,0 +1,46 @@
+Task 1 — React TypeScript & giao diện chính: 1 người
+
+người xây dựng bộ khung ban đầu của ứng dụng, bao gồm cấu trúc thư mục, hệ thống điều hướng, bố cục trang quản lý thực nghiệm và khu vực hiển thị 3D.
+
+
+Task 2 — Canvas 3D & Point Cloud: 2 người
+
+Một trong những phần trọng tâm của đề tài nên cần 2 người.
+
+- TV2: Phụ trách khởi tạo không gian 3D, scene, camera, ánh sáng và hệ tọa độ.
+
+- TV3: Phụ trách xử lý dữ liệu điểm, render Point Cloud, màu sắc và hiệu năng hiển thị.
+
+
+Task 3 — Tương tác chuột & Camera: 1 người
+
+Chịu trách nhiệm xử lý các thao tác tương tác trên không gian 3D như xoay, phóng to, thu nhỏ, chọn điểm dữ liệu và di chuyển camera đến vị trí được chỉ định.
+
+
+Task 4 — Database & API CRUD: 2 người
+
+Đề xuất hai người vì công việc này gồm hai phần có thể tách biệt:
+
+- TV5: Thiết kế cơ sở dữ liệu, mô hình lưu trữ thực nghiệm, dataset và metadata.
+
+- TV6: Xây dựng API CRUD để tạo, lấy danh sách, cập nhật và xóa thông tin thực nghiệm.
+
+
+Task 5 — UMAP/PCA: 1 người
+
+TV7 phụ trách tìm hiểu cách chuyển dữ liệu nhiều chiều thành tọa độ 3 chiều bằng PCA hoặc UMAP và chuẩn hóa kết quả để đưa vào Point Cloud.
+
+Ở giai đoạn đầu, ưu tiên hoàn thành PCA trước, sau đó mới bổ sung UMAP. Đồng thời cần giữ liên kết giữa điểm dữ liệu sau giảm chiều và mẫu dữ liệu ban đầu.
+
+Nếu nhóm chưa ai từng làm với các thuật toán giảm chiều, có thể cân nhắc tăng task này lên 2 người bằng cách điều chỉnh nhân sự ở Task 4.
+
+
+Task 6 — Context không gian 3D: 2 người
+
+Đây là phần giúp nền tảng có sự kết nối giữa dữ liệu đang hiển thị trong không gian 3D và trợ lý AI.
+
+- TV8: Xác định thông tin ngữ cảnh cần thu thập, ví dụ thực nghiệm đang mở, các điểm được chọn, thông tin liên quan đến điểm dữ liệu và trạng thái quan sát.
+
+- TV9: Xây dựng luồng tổng hợp, chuẩn hóa và truyền ngữ cảnh đó đến thành phần trợ lý AI theo giao diện đã thống nhất.
+
+Điểm quan trọng: Task 6 chưa nhất thiết phải xây dựng toàn bộ trợ lý AI hoàn chỉnh. Trong phạm vi công việc Mentor giao, nên ưu tiên tạo được luồng Context chính xác, kiểm tra được và có khả năng tích hợp về sau.
